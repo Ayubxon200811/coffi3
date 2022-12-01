@@ -1,0 +1,98 @@
+.main__container{
+    
+    max-width: 1280px;
+    height: 653px;
+    margin:  0 auto;
+}
+.main__bgimg{
+    background: #2C343E;
+    max-width: 1280px;
+    height: 653px;
+    @media screen and (max-width:613px){
+     height: 1028px;   
+    }
+}
+
+.main__list{
+    display: flex;
+    justify-content: space-between;
+    @media screen and (max-width:613px){
+       flex-wrap: wrap;
+    }
+}
+.main__list-item{
+    @media screen and (max-width:613px){
+        margin-left: 110px;
+    }
+    @media screen and (max-width:390px){
+        margin-left: 30px;
+    }
+}
+.main__item{
+    width: 30px;
+    height: 30px;
+    border: 2px solid #0E8784;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.hero__inner-box{
+    max-width: 1145px;
+    height: 566px;
+    margin:113px 140px 180px 85px;
+    border: 2px solid #2C343E;
+
+    @media screen and (max-width:850px){
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+    
+}.main__box{
+    max-width: 760px;
+    margin-top: 113px;
+    height: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    
+    @media screen and (max-width:613px){
+       display: none;  
+       }
+
+}
+.main__img{
+    margin-top: 81px;
+    margin-bottom: 38px;
+    @media screen and (max-width:613px){
+        margin-top: 64px;
+        margin-bottom: 24px;
+        margin-left: 90px;
+    }
+}
+.main__title{
+    font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 36px;
+color: #FEFCF7;
+max-width: 255px;
+margin-bottom: 42px;
+@media screen and (max-width:613px){
+margin-bottom: 24px;
+text-align: center;
+}
+}
+.main__text{
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #FEFCF7;
+max-width: 285px;
+
+@media screen and (max-width:613px){
+text-align: center;
+}
+}
